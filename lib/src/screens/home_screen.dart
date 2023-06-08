@@ -28,11 +28,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     var widthOfDevice = MediaQuery.of(context).size.width;
     return CupertinoPageScaffold(
-      navigationBar: const CupertinoNavigationBar(
-        middle: Text('Grade Counter'),
+      navigationBar: CupertinoNavigationBar(
+        middle: Text(result.toString()),
       ),
       child: Scaffold(
-        body: SingleChildScrollView(
+        body: SafeArea(
           child: widthOfDevice > 500?attestation?Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
