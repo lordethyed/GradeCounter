@@ -250,7 +250,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   CupertinoButton.filled(
                     onPressed: (){
                       setState(() {
-                        result = ((double.parse(grades1.text) * 12) + (double.parse(grades2.text) * 12) + (double.parse(test1.text) * 15) + (double.parse(test2.text) * 15) + (double.parse(atten1.text) * 3) + (double.parse(atten2.text) * 3)) + (double.parse(finalExam.text) * 40) / 100 ;
+                        result = ((double.parse(grades1.text) * 12) + (double.parse(grades2.text) * 12) + (double.parse(test1.text) * 15) + (double.parse(test2.text) * 15) + (double.parse(atten1.text) * 3) + (double.parse(atten2.text) * 3) + (double.parse(finalExam.text) * 40)) / 100 ;
                       });
                     }, 
                     child: const Text('Count')
