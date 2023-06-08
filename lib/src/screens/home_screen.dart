@@ -12,15 +12,15 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   bool attestation = true;
   double result = 0;
+  TextEditingController grades1 = TextEditingController();
+  TextEditingController atten1 = TextEditingController();
+  TextEditingController test1 = TextEditingController();
+  TextEditingController grades2 = TextEditingController();
+  TextEditingController atten2 = TextEditingController();
+  TextEditingController test2 = TextEditingController();
+  TextEditingController finalExam = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    TextEditingController grades1 = TextEditingController();
-    TextEditingController atten1 = TextEditingController();
-    TextEditingController test1 = TextEditingController();
-    TextEditingController grades2 = TextEditingController();
-    TextEditingController atten2 = TextEditingController();
-    TextEditingController test2 = TextEditingController();
-    TextEditingController finalExam = TextEditingController();
     var widthOfDevice = MediaQuery.of(context).size.width;
     return CupertinoPageScaffold(
       navigationBar: const CupertinoNavigationBar(
