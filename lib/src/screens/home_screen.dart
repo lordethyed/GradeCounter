@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
         middle: Text('Grade Counter'),
       ),
       child: Scaffold(
-        body: SafeArea(
+        body: SingleChildScrollView(
           child: widthOfDevice > 500?attestation?Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
