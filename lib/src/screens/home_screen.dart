@@ -78,6 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         controller: grades1,
                         textAlignVertical: TextAlignVertical.center,
                         textAlign: TextAlign.center,
+                        keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -88,6 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: atten1,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -98,6 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: test1,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -108,6 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: grades2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -118,6 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: atten2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -128,6 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: test2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   const SizedBox(height: 10,),
@@ -190,6 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         controller: grades1,
                         textAlignVertical: TextAlignVertical.center,
                         textAlign: TextAlign.center,
+                        keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -200,6 +207,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: atten1,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -210,6 +218,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: test1,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -220,6 +229,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: grades2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -230,6 +240,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: atten2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -240,6 +251,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: test2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -250,6 +262,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: finalExam,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   const SizedBox(height: 10,),
@@ -327,6 +340,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: atten1,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -337,6 +351,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: test1,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -347,6 +362,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: grades2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -357,6 +373,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: atten2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -367,6 +384,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: test2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   const SizedBox(height: 10,),
@@ -435,6 +453,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         controller: grades1,
                         textAlignVertical: TextAlignVertical.center,
                         textAlign: TextAlign.center,
+                        keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -445,6 +464,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: atten1,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -455,6 +475,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: test1,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -465,6 +486,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: grades2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -475,6 +497,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: atten2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -485,6 +508,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: test2,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   Container(
@@ -495,6 +519,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       controller: finalExam,
                       textAlignVertical: TextAlignVertical.center,
                       textAlign: TextAlign.center,
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   const SizedBox(height: 10,),
