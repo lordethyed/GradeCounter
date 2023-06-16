@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
     var widthOfDevice = MediaQuery.of(context).size.width;
     return CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
-        middle: Text('Your grade is : ${result.toString()}'),
+        middle: result == 0? const Text('Count your grade') :Text('Your grade is : ${result.toString()}'),
       ),
       child: Scaffold(
         body: SafeArea(
